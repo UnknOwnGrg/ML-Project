@@ -2,16 +2,13 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import warnings
 from sklearn.preprocessing import StandardScaler
 from scipy.stats import pearsonr
 from scipy.stats import chi2_contingency
 
 
-warnings.filterwarnings('ignore')
 
-
-df = pd.read_csv('insurance.csv')
+df = pd.read_csv('datasets/insurance.csv')
 
 # EDA(Exploratory Data Analysis)
 
