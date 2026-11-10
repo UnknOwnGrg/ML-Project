@@ -15,4 +15,5 @@ dependencies = [
     "seaborn>=0.13.2",
     "streamlit>=1.66.1",
     "tensorflow>=2.21.0",
+    "xgboost>=3.4.1",
 ]
